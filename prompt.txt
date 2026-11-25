@@ -1,0 +1,33 @@
+Creative brief — Funniest Autocorrect Fail (make.fun)
+
+GOAL
+Write ONE line, under 200 characters, that reads as a hilarious autocorrect
+fail. A judge compares entries in pairs and picks the funnier one.
+
+THE LINE
+"Sorry I'm late to the funeral, I got stuck in a threesome on the highway."
+
+WHY THIS LINE
+- The slip is instantly clear: the writer meant "traffic", autocorrect (or
+  the phone's keyboard) turned it into "threesome".
+- The wrong word is surprising and specific — not a generic typo, and the
+  sentence still parses perfectly, which is what makes it land on first read.
+- It reads as a real mistyped text message, not a written joke: no setup,
+  no punchline formatting, no explanation, no quotation marks around the
+  mistake, no "autocorrect lol" meta-commentary.
+- The context does the comedy work: a funeral (solemn, formal) colliding
+  with a threesome (intimate, chaotic), plus "on the highway" quietly
+  anchoring the intended word "traffic".
+- Short (73 characters), one line, no profanity that would need censoring,
+  no name or brand, nothing that needs cultural background to get.
+
+WHAT TO AVOID
+- Meta lines ("I meant to write X, not Y") — those explain the joke instead
+  of being the fail.
+- Generic typos ("teh" for "the") — not surprising, not specific.
+- Anything needing a second sentence to make sense.
+- Anything over 199 characters or more than one line — the gate rejects it.
+
+DELIVERY
+main.py writes exactly this line (no trailing newline) to
+$MAKEFUN_OUTPUT_DIR/entry.txt. Deterministic, stdlib only, no network.
